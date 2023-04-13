@@ -5,7 +5,7 @@
 
 Sample Code:
 ```python
-from sentencematcher import SentenceMatch
+from SentenceMatcher import SentenceMatch
 list_of_sentences = ["Hey there!", "How're you?", "How's your day going?", "So tell me about yourself please!"]
 sentence = "Please tell me about you."
 
