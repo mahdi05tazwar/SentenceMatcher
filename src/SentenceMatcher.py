@@ -78,13 +78,3 @@ def SentenceMatch(to_be_matched, list_to_match_against):
 
     max_accr = "%.1f" % max_accr
     return output, max_accr
-
-
-
-
-new_list_of_sentences = ["Hey there!", "How're you?", "How's your day going?", "So tell me about yourself please!"]
-new_sentence = "Please tell me about you."
-
-output, new_accr = SentenceMatch(new_sentence, new_list_of_sentences)
-print("Closest Match:", output)
-print("Accuracy:", new_accr)
